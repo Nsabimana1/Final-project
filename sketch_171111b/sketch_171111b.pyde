@@ -5,6 +5,7 @@ COLORS = {"black":"#000000", "white":"#FFFFFF",
             "orange":"#FFA500", "hendrixorange":"#F58025",
             "purple":"#9B30FF", "darkgray": "#A9A9A9"}
 
+#Class snake
 class Snake:
     def __init__(self, x , y , width, height, velx, vely, color, interface):
         self.width = width
